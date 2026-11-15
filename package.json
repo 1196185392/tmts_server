@@ -1,0 +1,14 @@
+{
+  "name": "chaomu-tianshi-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test-feedback.mjs",
+    "dev": "wrangler dev --config cloudflare/wrangler.toml",
+    "deploy": "wrangler deploy --config cloudflare/wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "4.158.0"
+  }
+}

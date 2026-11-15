@@ -1,0 +1,37 @@
+name = "chaomu-tianshi-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+# QWeather assigns an API Host to each project. The matching API key is held
+# separately as the QWEATHER_API_KEY Worker secret and is never committed.
+QWEATHER_HOST = "https://YOUR_QWEATHER_HOST"
+
+# Create the D1 database first, then replace both placeholders with its id.
+[[d1_databases]]
+binding = "DB"
+database_name = "chaomu-tianshi"
+database_id = "YOUR_D1_DATABASE_ID"
+
+# R2 is deliberately deferred until its account subscription/billing settings
+# are confirmed. The upload endpoint will remain unavailable until this binding
+# is restored after the bucket is created.
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 0.1
+
+[triggers]
+crons = ["15 1 * * *"]

@@ -1,0 +1,8 @@
+# Copy this file to .dev.vars for local Worker development. Never commit .dev.vars.
+WECHAT_APP_ID=
+WECHAT_APP_SECRET=
+SESSION_SECRET=
+QWEATHER_HOST=https://YOUR_QWEATHER_HOST
+QWEATHER_API_KEY=
+# Comma-separated OpenIDs permitted to use /v1/admin/*.
+ADMIN_OPENIDS=

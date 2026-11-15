@@ -1,0 +1,61 @@
+-- Batch retrieved 2026-11-07 through GBIF species-match API.
+-- Every row below was an EXACT + ACCEPTED match at species-or-below rank.
+-- No cultivation values are introduced by this migration.
+INSERT OR IGNORE INTO plant_species (id,name,scientific_name,category,aliases_json,summary,light,temperature,container,status,source) VALUES
+('radish','萝卜','Raphanus sativus L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('cucumber','黄瓜','Cucumis sativus L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('zucchini','西葫芦','Cucurbita pepo L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('pumpkin','南瓜','Cucurbita moschata (Duchesne) Duchesne ex Poir.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('bottle-gourd','瓠瓜','Lagenaria siceraria (Molina) Standl.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('common-bean','菜豆','Phaseolus vulgaris L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('yardlong-bean','豇豆','Vigna unguiculata subsp. sesquipedalis (L.) Verdc.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('broad-bean','蚕豆','Vicia faba L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('sweet-corn','玉米','Zea mays L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('beet','甜菜','Beta vulgaris L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('celery','芹菜','Apium graveolens L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('coriander','香菜','Coriandrum sativum L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('parsley','欧芹','Petroselinum crispum (Mill.) Fuss','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('dill','莳萝','Anethum graveolens L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('basil','罗勒','Ocimum basilicum L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('perilla','紫苏','Perilla frutescens (L.) Britton','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('pepper','辣椒','Capsicum annuum L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('eggplant','茄子','Solanum melongena L.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('okra','秋葵','Abelmoschus esculentus (L.) Moench','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('water-spinach','空心菜','Ipomoea aquatica Forssk.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('sweet-potato','甘薯','Ipomoea batatas (L.) Lam.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('taro','芋','Colocasia esculenta (L.) Schott','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('mustard-green','芥菜','Brassica juncea (L.) Czern.','蔬菜','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('watermelon','西瓜','Citrullus lanatus (Thunb.) Matsum. & Nakai','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('melon','甜瓜','Cucumis melo L.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('raspberry','覆盆子','Rubus idaeus L.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('grape','葡萄','Vitis vinifera L.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('lemon','柠檬','Citrus × limon (L.) Osbeck','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('persimmon','柿','Diospyros kaki L.f.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('fig','无花果','Ficus carica L.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('pomegranate','石榴','Punica granatum L.','水果','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('marigold','万寿菊','Tagetes erecta L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('zinnia','百日菊','Zinnia elegans Jacq.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('cosmos','波斯菊','Cosmos bipinnatus Cav.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('sunflower','向日葵','Helianthus annuus L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('china-pink','石竹','Dianthus chinensis L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('carnation','康乃馨','Dianthus caryophyllus L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('snapdragon','金鱼草','Antirrhinum majus L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('cockscomb','鸡冠花','Celosia argentea L.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('moss-rose','松叶牡丹','Portulaca grandiflora Hook.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('busy-lizzie','凤仙花','Impatiens walleriana Hook.fil.','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('scarlet-sage','一串红','Salvia splendens Sellow ex Nees','花卉','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('lavender','薰衣草','Lavandula angustifolia Mill.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('thyme','百里香','Thymus vulgaris L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('oregano','牛至','Origanum vulgare L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('sage','鼠尾草','Salvia officinalis L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('chives','细香葱','Allium schoenoprasum L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('tarragon','龙蒿','Artemisia dracunculus L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending'),
+('lemon-balm','香蜂草','Melissa officinalis L.','香草','[]','分类资料可追溯；养护资料正在按地区、品种和机构出处整理。',NULL,NULL,NULL,'published','taxonomy-backed-cultivation-pending');
+
+INSERT OR IGNORE INTO plant_sources (id,species_id,scope,authority,title,source_url,external_id,taxon_name,taxon_rank,match_confidence,license_note,status,retrieved_at,verified_at)
+SELECT 'src-tax-'||id||'-gbif',id,'taxonomy','GBIF / Catalogue of Life Extended Release','GBIF species match: '||scientific_name,'https://www.gbif.org/species/'||CASE id
+  WHEN 'radish' THEN '7678610' WHEN 'cucumber' THEN '2874569' WHEN 'zucchini' THEN '2874508' WHEN 'pumpkin' THEN '7393329' WHEN 'bottle-gourd' THEN '2874672' WHEN 'common-bean' THEN '5350452' WHEN 'yardlong-bean' THEN '3911281' WHEN 'broad-bean' THEN '2974832' WHEN 'sweet-corn' THEN '5290052' WHEN 'beet' THEN '8971274' WHEN 'celery' THEN '5371879' WHEN 'coriander' THEN '3034871' WHEN 'parsley' THEN '7828157' WHEN 'dill' THEN '3034646' WHEN 'basil' THEN '2927096' WHEN 'perilla' THEN '5341394' WHEN 'pepper' THEN '2932944' WHEN 'eggplant' THEN '2930617' WHEN 'okra' THEN '3152707' WHEN 'water-spinach' THEN '2928525' WHEN 'sweet-potato' THEN '2928551' WHEN 'taro' THEN '5330776' WHEN 'mustard-green' THEN '3042751' WHEN 'watermelon' THEN '2874621' WHEN 'melon' THEN '2874570' WHEN 'raspberry' THEN '2993094' WHEN 'grape' THEN '5372392' WHEN 'lemon' THEN '7647136' WHEN 'persimmon' THEN '3032984' WHEN 'fig' THEN '5361909' WHEN 'pomegranate' THEN '5420901' WHEN 'marigold' THEN '3088488' WHEN 'zinnia' THEN '3111754' WHEN 'cosmos' THEN '3098912' WHEN 'sunflower' THEN '9206251' WHEN 'china-pink' THEN '3085418' WHEN 'carnation' THEN '3085420' WHEN 'snapdragon' THEN '3172001' WHEN 'cockscomb' THEN '3085191' WHEN 'moss-rose' THEN '3084700' WHEN 'busy-lizzie' THEN '2891772' WHEN 'scarlet-sage' THEN '8249932' WHEN 'lavender' THEN '2927305' WHEN 'thyme' THEN '5341442' WHEN 'oregano' THEN '2926612' WHEN 'sage' THEN '2927004' WHEN 'chives' THEN '2855860' WHEN 'tarragon' THEN '3121581' WHEN 'lemon-balm' THEN '5341501' END,
+CASE id
+  WHEN 'radish' THEN '7678610' WHEN 'cucumber' THEN '2874569' WHEN 'zucchini' THEN '2874508' WHEN 'pumpkin' THEN '7393329' WHEN 'bottle-gourd' THEN '2874672' WHEN 'common-bean' THEN '5350452' WHEN 'yardlong-bean' THEN '3911281' WHEN 'broad-bean' THEN '2974832' WHEN 'sweet-corn' THEN '5290052' WHEN 'beet' THEN '8971274' WHEN 'celery' THEN '5371879' WHEN 'coriander' THEN '3034871' WHEN 'parsley' THEN '7828157' WHEN 'dill' THEN '3034646' WHEN 'basil' THEN '2927096' WHEN 'perilla' THEN '5341394' WHEN 'pepper' THEN '2932944' WHEN 'eggplant' THEN '2930617' WHEN 'okra' THEN '3152707' WHEN 'water-spinach' THEN '2928525' WHEN 'sweet-potato' THEN '2928551' WHEN 'taro' THEN '5330776' WHEN 'mustard-green' THEN '3042751' WHEN 'watermelon' THEN '2874621' WHEN 'melon' THEN '2874570' WHEN 'raspberry' THEN '2993094' WHEN 'grape' THEN '5372392' WHEN 'lemon' THEN '7647136' WHEN 'persimmon' THEN '3032984' WHEN 'fig' THEN '5361909' WHEN 'pomegranate' THEN '5420901' WHEN 'marigold' THEN '3088488' WHEN 'zinnia' THEN '3111754' WHEN 'cosmos' THEN '3098912' WHEN 'sunflower' THEN '9206251' WHEN 'china-pink' THEN '3085418' WHEN 'carnation' THEN '3085420' WHEN 'snapdragon' THEN '3172001' WHEN 'cockscomb' THEN '3085191' WHEN 'moss-rose' THEN '3084700' WHEN 'busy-lizzie' THEN '2891772' WHEN 'scarlet-sage' THEN '8249932' WHEN 'lavender' THEN '2927305' WHEN 'thyme' THEN '5341442' WHEN 'oregano' THEN '2926612' WHEN 'sage' THEN '2927004' WHEN 'chives' THEN '2855860' WHEN 'tarragon' THEN '3121581' WHEN 'lemon-balm' THEN '5341501' END,
+scientific_name,CASE WHEN id='yardlong-bean' THEN 'subspecies' ELSE 'species' END,97,'Retain source attribution internally; cultivation guidance is separate.','verified','2026-11-07T12:15:16Z','2026-11-07T12:15:16Z'
+FROM plant_species WHERE id IN ('radish','cucumber','zucchini','pumpkin','bottle-gourd','common-bean','yardlong-bean','broad-bean','sweet-corn','beet','celery','coriander','parsley','dill','basil','perilla','pepper','eggplant','okra','water-spinach','sweet-potato','taro','mustard-green','watermelon','melon','raspberry','grape','lemon','persimmon','fig','pomegranate','marigold','zinnia','cosmos','sunflower','china-pink','carnation','snapdragon','cockscomb','moss-rose','busy-lizzie','scarlet-sage','lavender','thyme','oregano','sage','chives','tarragon','lemon-balm');
